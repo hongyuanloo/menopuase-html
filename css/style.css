@@ -6,7 +6,6 @@
 
 body {
   width: 100%;
-  /* border: 2px solid grey; */
   margin: auto;
   color: #838383;
   background-color: #f2f2f2;
@@ -14,7 +13,6 @@ body {
 
 /* -----------article------------- */
 article {
-  /* border: 2px solid red; */
   margin-bottom: 48px;
   padding-left: 16px;
   padding-right: 16px;
@@ -78,16 +76,17 @@ section {
 }
 
 /* -----------Responsive screens------------- */
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  body {
-    width: 90%;
-  }
-} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 610px) {
   body {
     width: 600px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 810px) {
+  body {
+    width: 800px;
   }
 }
