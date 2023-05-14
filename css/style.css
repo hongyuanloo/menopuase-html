@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-wrap: break-word;
+}
+
+body {
+  width: 100%;
+  /* border: 2px solid grey; */
+  margin: auto;
+  color: #838383;
+  background-color: #f2f2f2;
+}
+
+/* -----------article------------- */
+article {
+  /* border: 2px solid red; */
+  margin-bottom: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* -----------image------------- */
+.img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 16px 0;
+}
+
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+}
+
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+section {
+  margin-bottom: 16px;
+}
+
+/* -----------summary------------- */
+.summary-box ol li span {
+  font-weight: bold;
+}
+
+/* -----------references------------- */
+.references-box {
+  margin-bottom: 48px;
+  padding-left: 16px;
+  padding-right: 24px;
+}
+.references-box ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+/* -----------disclaimer------------- */
+.disclaimer-box {
+  margin-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* -----------Responsive screens------------- */
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  body {
+    width: 90%;
+  }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    width: 600px;
+  }
+}
